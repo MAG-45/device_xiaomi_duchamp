@@ -2,6 +2,9 @@
 persist.sys.dalvik.hyperthreading=true
 persist.sys.dalvik.multithread=true
 
+# Increase max cached processes
+activity_manager.max_cached_processes=64
+
 # LMKD
 ro.config.low_ram=false
 ro.lmk.use_minfree_levels=true
