@@ -14,18 +14,31 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!-- Xiaomi Settings -->
+    <string name="app_title">Xiaomi Settings</string>
+    <string name="tile_add">Add tile</string>
+    <string name="tile_added">Tile added</string>
+    <string name="tile_not_added">Tile not added</string>
+    <string name="tile_already_added">Tile already added</string>
+    <string name="tile_on">On</string>
+    <string name="tile_off">Off</string>
 
     <!-- Thermal profiles -->
     <string name="thermal_title">Thermal profiles</string>
-    <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
-    <string name="thermal_default">No optimization</string>
-    <string name="thermal_benchmark">Performance</string>
+    <string name="thermal_enable">Use thermal profiles</string>
+    <string name="thermal_summary">Per-app thermal profile configuration</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
     <string name="thermal_browser">Browser</string>
     <string name="thermal_camera">Camera</string>
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
+    <string name="thermal_navigation">Navigation</string>
     <string name="thermal_streaming">Streaming</string>
+    <string name="thermal_video">Video</string>
 
      <!-- Thermal Profile tiles-->
     <string name="thermalprofile_title">Thermal profile</string>
@@ -35,34 +48,38 @@
     <string name="thermalprofile_game">Game</string>
     <string name="thermalprofile_unknown">Unknown</string>
 
-    <!-- Per-app refresh rate -->
-    <string name="refresh_title">Per-app refresh rate</string>
+    <!-- Refresh rate -->
+    <string name="refresh_title">Refresh rate</string>
     <string name="refresh_summary">Set the maximum refresh rate for a specific application</string>
     <string name="refresh_default">Default</string>
     <string name="refresh_standard">60Hz</string>
     <string name="refresh_extreme">120Hz</string>
-
-    <!-- Doze Strings -->
-    <string name="doze_brightness_low">Low brightness</string>
-    <string name="doze_brightness_high">High brightness</string>
-    <string name="doze_brightness_adaptive">Adaptive brightness</string>
-    <string name="doze_brightness_title">Doze brightness level</string>
-    <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
 
     <!-- Clear Speaker -->
    <string name="clear_speaker_title">Clear speaker</string>
    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
 
-    <!-- Strings related to High Touch Polling -->
-    <!-- Title for the High Touch Responsiveness feature -->
-    <string name="htsr_title">Enhanced Touch Responsiveness</string>
+    <!-- High Touch Polling -->
+    <string name="htsr_title">Touch Responsiveness</string>
+    <string name="htsr_enable_title">Increase Touch Responsiveness</string>
+    <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
+    <string name="touch_sampling_tile_label">Touch Boost</string>
 
-    <!-- Title for enabling High Touch Polling Rate -->
-    <string name="htsr_enable_title">Enable High Touch Polling Rate</string>
+    <!-- Saturation -->
+    <string name="saturation_title">Display Saturation</string>
+    <string name="saturation_summary">Control the saturation level of the display</string>
+    <string name="saturation_footer_summary">Changing the color mode in display settings will override the saturation level, requiring it to be reapplied.</string>
+    
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    
+    <!-- Image preview -->
+    <string name="image_preview_content_description">Preview</string>
+    <string name="image_preview_next_page_content_description">Next</string>
+    <string name="image_preview_previous_page_content_description">Previous</string>
 
-    <!-- Description for High Touch Polling Rate -->
-    <string name="htsr_enable_summary">
-        Boosts the touch polling rate to reduce input latency, delivering a smoother and more responsive user experience.
-    </string>
 </resources>
