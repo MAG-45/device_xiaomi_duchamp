@@ -267,6 +267,9 @@ persist.sys.fuse.passthrough.enable=true
 ro.vendor.mtk_log_hide_gps=1
 ro.vendor.gps.chrdev=gps_drv_dl_v051
 
+# Graphics
+ro.surface_flinger.support_kernel_idle_timer=true
+
 # HWUI
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
