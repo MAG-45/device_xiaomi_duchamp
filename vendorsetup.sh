@@ -2,11 +2,11 @@
 echo "Applying source modifications..."
 
 # UDFPS Patch for frameworks/base
-echo "Patch FP"
-cd frameworks/base
-wget https://raw.githubusercontent.com/MAG-45/duchamp_patch/refs/heads/vic_evo/fp_evo_qpr2.patch
-git am < fp_evo_qpr2.patch
-cd ../../
+#echo "Patch FP"
+#cd frameworks/base
+#wget https://raw.githubusercontent.com/MAG-45/duchamp_patch/refs/heads/vic_evo/fp_evo_qpr2.patch
+#git am < fp_evo_qpr2.patch
+#cd ../../
 
 # Hardware Compatibility Fixes
 echo "Fetching and applying hardware compatibility fixes for hardware/lineage/compat..."
