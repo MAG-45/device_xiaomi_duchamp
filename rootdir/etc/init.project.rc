@@ -80,6 +80,8 @@ on post-fs-data
     chown system system /sys/class/thermal/thermal_message/charger_temp
     chmod 0664 /sys/class/power_supply/battery/constant_charge_current
     chown system system /sys/class/power_supply/battery/constant_charge_current
+    chown system system /sys/class/power_supply/battery/charge_control_limit
+    chmod 0664 /sys/class/power_supply/battery/charge_control_limit
 
     # Power
     chown root system /sys/devices/system/cpu/sched_ctl/sched_util_est_ctrl
