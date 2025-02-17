@@ -305,6 +305,7 @@ odm/lib64/libmialgo_aio_seg.so
 odm/lib64/libmialgo_depth.so
 odm/lib64/libmialgo_ie_capture.so
 odm/lib64/libmialgo_utils.so
+odm/lib64/libmiocr.so
 odm/lib64/libmiphone_capture_bokeh.so
 odm/lib64/libmiphone_capture_depth.so
 odm/lib64/libomp.so
