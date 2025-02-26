@@ -265,9 +265,7 @@ PRODUCT_COPY_FILES += \
 # Properties
 include $(DEVICE_PATH)/vendor_logtag.mk
 
-# Quick Tap
-PRODUCT_PACKAGES += \
-    ColumbusService
+# Quick Tap already present on EvoX
 
 # SKU
 PRODUCT_COPY_FILES += \
