@@ -1,3 +1,7 @@
+## WARNING
+
+This repo is a fork from Zenin's device tree for duchamp, I apply only modifications for EvolutionX rom, please don't use mine if you want to build an another rom than EvolutionX.
+
 Copyright (C) 2023-2024 The LineageOS Project
 
 Device configuration for Poco X6 Pro 5G/Redmi K70E
