@@ -1,7 +1,8 @@
 name: Send Telegram Info
 run-name: Send Notifications Commits
 on:
-  push:  
+  push: 
+  workflow_dispatch:
 
 jobs:
   notify:
