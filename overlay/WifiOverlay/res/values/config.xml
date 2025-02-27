@@ -27,7 +27,7 @@
     <bool translatable="false" name="config_wifiSaeH2eSupported">true</bool>
 
     <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
-    <bool translatable="false" name="config_wifiSoftap6ghzSupported">true</bool>
+    <bool translatable="false" name="config_wifiSoftap6ghzSupported">false</bool>
 
     <!-- Boolean indicating whether or not to auto-upgrade band setting configuration
          to dual bands during cloud configuration restore when device supported -->
