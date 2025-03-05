@@ -9,4 +9,7 @@
     <!-- Android version screen, build maintainer -->
     <string name="build_maintainer_summary" translatable="false">MAG</string>
     <string name="build_maintainer_donate_url" translatable="false">https://buymeacoffee.com/mag_</string>
+
+    <!-- Color Strings -->
+    <string name="display_engine_mode_footer_text">Due to hardware incompatibilities, the Reality Display Engine system is disabled on Poco X6 Pro / Redmi K70E (duchamp) devices.</string>
 </resources>
