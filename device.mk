@@ -128,10 +128,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.heapminfree=8m \
     dalvik.vm.heapmaxfree=48m
 
-# Debloat
-PRODUCT_PACKAGES += \
-    Debloat
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
