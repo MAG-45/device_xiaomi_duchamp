@@ -411,3 +411,27 @@ $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
 
 # Dolby 
 $(call inherit-product, hardware/dolby/dolby.mk)
+
+# Thermal 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/thermal/thermal-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-normal.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cclassvideo.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cgame.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-normal.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-huanji.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-mgame.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-navigation.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-nolimits.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-class0.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-normal.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-video.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-phone.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-tgame.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
+    $(DEVICE_PATH)/configs/thermal/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf 
