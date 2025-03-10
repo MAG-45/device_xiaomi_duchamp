@@ -93,6 +93,11 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libmtkcam_grallocutils_aidlv1helper.so'): blob_fixup()
         .replace_needed('android.hardware.graphics.allocator-V1-ndk.so', 'android.hardware.graphics.allocator-V2-ndk.so')
         .replace_needed('android.hardware.graphics.common-V4-ndk.so', 'android.hardware.graphics.common-V5-ndk.so'),
+
+    ('odm/lib64/libmt_mitee.so',
+     'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee'): blob_fixup()
+        .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V4-ndk.so'),
+
 }  # fmt: skip
 
 module = ExtractUtilsModule(
