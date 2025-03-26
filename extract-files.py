@@ -99,6 +99,8 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/bin/hw/android.hardware.security.keymint@3.0-service.mitee'): blob_fixup()
         .replace_needed('android.hardware.security.keymint-V3-ndk.so', 'android.hardware.security.keymint-V4-ndk.so'),
 
+    'vendor/lib64/mt6897/libpqconfig.so': blob_fixup()
+        .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
