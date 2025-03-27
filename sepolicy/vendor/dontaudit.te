@@ -1,0 +1,4 @@
+# Camera HAL tries to read God knows what property.
+dontaudit mtk_hal_camera default_prop:file read;
+# Dontaudit Audio to read default_prop
+dontaudit hal_audio_default default_prop:file read;
