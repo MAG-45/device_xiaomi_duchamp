@@ -440,3 +440,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
     $(DEVICE_PATH)/configs/thermal/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
     $(DEVICE_PATH)/configs/thermal/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf 
+
+# MIUICam
+$(call inherit-product, device/xiaomi/duchamp-miuicamera/device.mk)
