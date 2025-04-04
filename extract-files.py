@@ -90,12 +90,18 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/mt6897/libpqconfig.so': blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 
-    'vendor/lib64/mt6897/libneuralnetworks_sl_driver_mtk_prebuilt.so': blob_fixup()
+    ('odm/lib64/libTrueSight.so',
+     'odm/lib64/libalLDC.so',
+     'odm/lib64/libalAILDC.so',
+     'odm/lib64/libalhLDC.so',
+     'vendor/lib64/libMiVideoFilter.so',
+     'vendor/lib64/mt6897/libneuralnetworks_sl_driver_mtk_prebuilt.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_createFromHandle')
         .clear_symbol_version('AHardwareBuffer_describe')
         .clear_symbol_version('AHardwareBuffer_getNativeHandle')
         .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_lockPlanes')
         .clear_symbol_version('AHardwareBuffer_release')
         .clear_symbol_version('AHardwareBuffer_unlock'),
 }  # fmt: skip
