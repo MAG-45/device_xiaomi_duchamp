@@ -181,6 +181,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-evolution
 
 PRODUCT_PACKAGES += \
+   CarrierConfigOverlayDuchamp \
    FrameworksResOverlayDuchamp \
    PowerOffAlarmOverlayDuchamp \
    SettingsProviderOverlayDuchampPOCO \
