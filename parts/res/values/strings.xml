@@ -38,6 +38,17 @@
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_navigation">Navigation</string>
     <string name="thermal_streaming">Streaming</string>
+
+    <!-- Turbo Charging -->
+    <string name="turbo_charge_title">Turbo Charging</string>
+    <string name="turbo_enable_title">Enable Turbo Charging</string>
+    <string name="turbo_charge_summary">Enable Turbo Charging for different charging modes up to 67W</string>
+    <string name="turbo_charge_current_pref_title">Charging wattage</string>
+    <string name="turbo_mode_one">18W</string>
+    <string name="turbo_mode_two">30W</string>
+    <string name="turbo_mode_three">67W</string>
+    <string name="turbo_charge_tile_label">Turbo Charging</string>
+    <string name="turbo_charge_tile_content_description">Toggle Turbo Charging</string>
     <string name="thermal_video">Video</string>
 
      <!-- Thermal Profile tiles-->

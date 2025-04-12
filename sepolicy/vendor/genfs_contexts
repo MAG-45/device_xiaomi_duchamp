@@ -2,6 +2,10 @@
 genfscon sysfs /class/smartpa/re25_calib u:object_r:sysfs_re25_calib:s0
 genfscon sysfs /devices/platform/11d00000.i2c/i2c-0/0-005a/f0_value u:object_r:sysfs_f0_value:s0
 
+# Charger
+genfscon sysfs /sys/class/power_supply/battery/constant_charge_current                                       u:object_r:sysfs_power_supply:s0
+genfscon sysfs /sys/class/power_supply/usb/online                                                            u:object_r:sysfs_power_supply:s0
+
 # Display
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0/brightness_clone                   u:object_r:vendor_displayfeature_sysfs:s0
 genfscon sysfs /devices/virtual/mi_display/disp_feature/disp-DSI-0/panel_info                         u:object_r:vendor_displayfeature_sysfs:s0
