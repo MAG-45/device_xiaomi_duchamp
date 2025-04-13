@@ -43,7 +43,6 @@ import org.lineageos.settings.turbocharging.TurboChargingService;
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
     private static final String TAG = "XiaomiParts";
-    private static final boolean DEBUG = false; // Set to true for debugging purposes
 
     @Override
     public void onReceive(final Context context, Intent intent) {
